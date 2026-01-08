@@ -38,9 +38,5 @@ python main.py
   - `autores_scopus_completo.csv` — registros detalhados por autor
   - `autores_scopus_resumido.csv` — uma linha por artigo com autores formatados
 
-**Observações e dicas**
-- Feche o `autores_scopus_completo.csv` no Excel antes de executar o script, para evitar `PermissionError` ao salvar.
-- As colunas do Excel são normalizadas para minúsculas; `doi`, `DOI` e `DoI` são equivalentes.
-- Caso queira alterar o nome do arquivo de entrada ou das colunas esperadas, edite as variáveis e parâmetros no início de `main.py`.
 
-Se quiser, eu posso gerar também um `requirements.txt` com as dependências listadas. Deseja que eu adicione esse arquivo ao repositório?
+
